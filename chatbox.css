@@ -1,0 +1,70 @@
+#chat-container {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+    width: 400px;
+    height: 528px;
+    background-color: white;
+    border: 1px solid black;
+    
+  }
+  
+  #chat-header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #chat-messages {
+    height: 400px;
+    
+    padding: 10px;
+
+  }
+  
+  #input-container {
+    display: flex;
+    padding: 10px 0px;
+  }
+  
+  #chat-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #chat-send-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .fa-check.accepted {
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  .fa-times.rejected {
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  
